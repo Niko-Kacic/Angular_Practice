@@ -7,7 +7,7 @@ import { Character } from '../../interfaces/character.interface';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent  {
-  @Input()
+  @Input()//Descorador que permite propiedades del main-page.component
   public characterList: Character[] = [{
     name: 'Trunks',
     power: 10
