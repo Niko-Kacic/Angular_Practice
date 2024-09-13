@@ -14,12 +14,12 @@ import { AddCharacterComponent } from './components/add-character/add-character.
     ListComponent,
     AddCharacterComponent
   ],
-  exports: [
-    MainPageComponent
-  ],
   imports: [
     CommonModule,
     FormsModule
+  ],
+  exports: [
+    MainPageComponent
   ]
 })
 export class DbzModule { }
